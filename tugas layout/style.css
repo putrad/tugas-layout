@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #010109 ;
+}
+.container {
+    width: 960px;
+    margin: auto;
+}
+.bungkus-nav {
+    background-color: rgb(240, 0, 0);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.logo-nav a{
+    float: left;
+    padding: 15px 0px 15px 50px;
+    color: rgb(5, 179, 63);
+    text-decoration: none;
+    font-size: 25px;
+}
+.nama-nav a{
+    float: right;
+    display: block;
+    padding: 20px 50px 20px 50px;
+    color: rgb(52, 209, 91);
+    text-decoration: none;
+    border-left: 1px solid white;
+}
+.nama-nav a:hover {
+    background-color: grey;
+}
+.bungkus-halaman {
+    background-color: red;
+}
+.judul-halaman {
+    text-align: center;
+}
+.isi-halaman {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.konten .konten-kiri {
+    width: 600px;
+    float: left;
+    background-color: rgb(213, 15, 51);
+}
+.konten .konten-kanan {
+    width: 360px;
+    float: right;
+    background-color: rgb(202, 202, 25);
+    
+}
+.konten-kanan h2 {
+    text-align: center;
+}
+.konten-kanan ul li {
+    list-style: none;
+    line-height: 36px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 960px;
+    background-color: gray;
+}
+.footer-1 {
+    position: relative;
+    text-transform: capitalize;
+    background-color: burlywood;
+    width: 320px;
+    text-align: center;
+}
+.footer-lapis {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+}
+.link-eksternal {
+    list-style: none;
+    padding-left: 0;
+}
+.link-eksternal a {
+    text-decoration: none;
+    color: black;
+}
